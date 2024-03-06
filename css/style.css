@@ -1,0 +1,46 @@
+* {
+    color: white;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 50pt;
+}
+
+.BenSigma {
+    margin-top: 40px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 1000px;
+    width: fit-content;
+}
+
+#board1 {
+    margin-top: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+input {
+    height: 100px;
+    width: 1000px;
+    margin: 40px;
+    background-color: rgb(20, 20, 20);
+    border: 1px;
+    border-radius: 30px;
+    font-size: 32px;
+    float: left;
+}
+.send {
+    width: 150;
+    height: 150;
+}
+body {
+    background: rgb(70,70,70);
+}

@@ -1,5 +1,3 @@
-//Uses the chess.js library to play a "random" game of chess
-
 import { Chess } from './node_modules/chess.js/dist/chess.js'
 
 var board1 = null

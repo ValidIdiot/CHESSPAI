@@ -382,6 +382,8 @@ function evaluatedPos(state, maxPlayer){
   if (state.isCheckmate()){
    
     maxPlayer ? whiteEval = 1000 : blackEval = 1000
+    game.clear()
+    board.start()
   }
   
 

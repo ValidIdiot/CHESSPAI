@@ -1,6 +1,6 @@
 //Uses the chess.js library to play a "random" game of chess
 
-import { Chess } from './node_modules/chess.js/dist/chess.js'
+import { Chess } from './js/chess.js'
 
 var board1 = null
 var game = new Chess()

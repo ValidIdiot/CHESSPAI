@@ -116,7 +116,7 @@ function onDragStart (source, piece, position, orientation) {
 
 
 function makeComputerMove(){
-  let value = minimax(4, game, null, -999999, 999999)
+  let value = minimax(5, game, null, -999999, 999999)
   
   game.move(value[1])
   console.log(value[0])
